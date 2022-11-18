@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: rgb(252, 214, 200);
+    height: 100vh;
+} 
+
+
+.navbar{
+    padding: 0 40px;
+}
+header{
+    display: flex;
+    background-color: rgb(187, 86, 86);
+    justify-content: space-between;
+    height: 10vh;
+}
+ .navlist{
+    list-style: none;
+ }
+
+ .navlist li {
+    display: inline-block;
+    padding: 20px 15px;
+ }
+
+ .navlist li a{
+    color: black;
+    text-decoration: none;
+    font-size: small; 
+    font-weight: 700;
+ }
+
+ .navlist li a:hover{
+    color: antiquewhite;
+ }
+
+ .image{
+    padding: 10px 8px;
+ }
+
+ .btn{
+     
+     border-radius: 100px;
+     color: black;
+     cursor: pointer;
+     padding: 6px 12px;
+     text-align: center;
+     text-decoration: none;
+     border: 0;
+     font-size: 10px;
+     font-weight: 700;
+ }
+
+ .btn2{
+  
+    border-radius: 100px;
+    color: black;
+    cursor: pointer;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.div1{
+    display: flex;
+}
+.sec1{
+    height: 40vh;
+  
+}
+
+.left{
+   
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+}
+.para1{
+    text-align: justify;
+    text-align: center;
+}
+.btn3{
+   
+    color: white;
+    cursor: pointer;
+    padding: 8px 14px;
+    text-align: center;
+    border-color: rgb(226, 213, 213);
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: rgb(21, 128, 174);
+    transition-delay: 1ms;
+   
+}
+
+.btn3:hover{
+    background-color:rgb(155, 88, 88)
+}
+
+.right{
+    display: flex;
+    width: 50%;
+    height: 80vh;
+    justify-content: center;
+}
+
+.image2{
+    padding: 70px 20px;
+    transform: rotate(10deg);
+    box-shadow: 10px 10px 5px rgb(126, 80, 80);
+}
+   
+
+.head1{
+    padding: 100px 0 0;
+    color: brown;
+}
+
+.para1{
+    padding: 40px 0 20px;
+    font-weight: 500;
+}
+
+.foot
+{
+    background-color: rgb(238, 143, 143);
+    text-align: center;
+    height: 80px;
+    
+}
+
+.head4{
+    padding: 20px 0 0;
+    color: rgb(65, 22, 22);
+    font-weight: 700;
+}
+.head5{
+    padding: 10px 0 5px;
+    color: rgb(65, 22, 22);
+    font-weight: 600;
+}
